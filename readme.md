@@ -16,7 +16,7 @@ API parser and DB saver.
 * pm2,
 * mysql.
 
-###Project setup
+### Project setup
 * git clone <project>
 * cd <project>
 * npm i
@@ -30,8 +30,9 @@ API parser and DB saver.
                           PRIMARY KEY (id),
                           UNIQUE KEY name (name)
                         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;`
+* Start project: `npm run start`
 
-###API
+### API
 * Request for all data: 
     * **Method** `GET` _url_: `/api/all`
 
